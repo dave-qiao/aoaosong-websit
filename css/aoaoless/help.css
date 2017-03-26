@@ -1,0 +1,99 @@
+.container .row .col-sm-4 {
+  text-align: center;
+}
+.container .row .col-sm-4 .help-content {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.container .row .col-sm-4 .help-content i {
+  font-size: 50px;
+  color: #000;
+  padding-top: 30px;
+}
+.container .row .col-sm-4 .help-content div:nth-child(2) {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #000;
+  padding-bottom: 40px;
+}
+.container .row .col-sm-4 .hover_style {
+  background: #ff7700;
+  opacity: 1;
+}
+.container .row .col-sm-4 .hover_style i {
+  color: #fff;
+}
+.container .row .col-sm-4 .hover_style div:nth-child(2) {
+  color: #fff;
+}
+.question {
+  display: none;
+}
+.container.videos {
+  margin-top: 50px;
+  display: none;
+}
+.container.videos .portfolio .col-sm-3 a {
+  text-align: center;
+  text-decoration: none;
+  background: #ccc;
+}
+.container.videos .portfolio .col-sm-3 a i {
+  font-size: 60px;
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  color: #ff7700;
+}
+.container.videos .portfolio .col-sm-3 a i:hover {
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.help.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.help.container .row ul li {
+  list-style: none;
+  padding: 10px 0;
+  font-weight: Regular;
+  color: raba(255, 255, 255, 0.8);
+}
+.help.container .row ul li h3 {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  color: #000;
+}
+.help.container .row ul li span {
+  float: right;
+  font-size: 12px;
+  color: #c9c9c9;
+}
+.help_title a{
+  color:#000000;
+}
+.help_title a:hover{
+  text-decoration: none;
+}
+.contant_min_height{
+  min-height:651px;
+  height:auto !important;
+  height:651px;
+}
+@media screen and (min-height:1440px){
+  #footer_fixed{
+    position:fixed;
+    bottom:0;
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+}

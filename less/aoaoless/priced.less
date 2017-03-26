@@ -1,0 +1,107 @@
+@gray: rgb(229,229,229);
+@gray2: rgb(249,249,249);
+body{
+  background: #ffffff;
+}
+.container.priced{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  table{
+    width: 100%;
+    .title{
+      td{
+        background: @gray2;
+        font-size: 16px;
+      }
+    }
+    .s-title{
+      background: rgb(254,248,244);
+      color: #ff7700;
+      font-size: 18px;
+      padding:15px 0;
+    }
+    tr{
+      a{
+        display: block;
+        color: #ff7700;
+        text-decoration: none;
+      }
+      td{
+        border:1px solid @gray;
+        text-align: center;
+        padding: 10px 0;
+        cursor: default;
+        input{
+          border:1px solid rgb(197,197,197);
+          border-radius: 3px;
+          width: 100px;
+          text-align: center;
+        }
+        button{
+          padding: 5px 20px;
+          background: #fff;
+          border: 1px solid #ff7700;
+          border-radius: 20px;
+          color: #ff7700;
+        }
+        button:hover{
+          background: #ff7700;
+          color: #ffffff;
+        }
+        .fa.fa-check-circle-o{
+          color: rgb(38, 204, 141);
+          font-size: 22px;
+        }
+        .fa.fa-exclamation-circle{
+          font-size: 16px;
+          padding-left: 10px;
+        }
+      }
+      td:nth-child(1){
+        width: 15%;
+      }
+    }
+
+  }
+}
+
+.info{
+  background: @gray2;
+  .container{
+    h3{
+      text-align: center;
+      padding:40px 0;
+    }
+    ul{
+      li{
+        list-style: none;
+        padding:8px 0;
+        text-align: center;
+        span{
+          width: 57px;
+          margin-right: 12px;
+          display: inline-block;
+          text-align: right;
+        }
+        input{
+          border-radius: 5px;
+          border:1px solid @gray;
+          padding: 5px;
+          width: 50%;
+        }
+      }
+    }
+    button{
+      padding: 5px 35px;
+      background: #fff;
+      border: 1px solid #ff7700;
+      border-radius: 20px;
+      color: #ff7700;
+      text-align: center;
+    }
+    button:hover{
+      background: #ff7700;
+      color: #ffffff;
+    }
+  }
+}

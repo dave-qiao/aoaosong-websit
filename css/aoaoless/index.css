@@ -1,0 +1,129 @@
+body .r-position {
+  height: 500px;
+  position: relative;
+}
+body .r-position .free-position {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+body .r-position .ab-position {
+  position: absolute;
+  top: 0;
+  border:none;
+}
+body .r-position .ab-position2 {
+  position: absolute;
+  top: 0;
+  border:none;
+}
+body .site-content.site-section.site-slide-content {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden !important;
+}
+body .site-content.site-section.site-slide-content .mtp {
+  position: absolute !important;
+  top: 10px;
+  right: 0;
+}
+#banner{
+  position:relative;
+  overflow:hidden;
+}
+#banner-center{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  height:177px;
+  margin:auto;
+}
+body .site-content.site-section.site-slide-content .site-block-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .site-content.site-section.site-slide-content .site-block {
+  margin-bottom:0px;
+  position:relative;
+}
+#macDown{
+  position: absolute;
+  bottom:200px;
+  left:50%;
+  top:40%;
+  margin-left:-59px;
+ 
+}
+body .site-content.site-section.site-slide-content .row .p-text {
+  font-size: 20px !important;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+body .site-content.site-section.site-slide-content .row .col-sm-6 .promo-content {
+  font-size: 16px;
+}
+@media screen and (min-width: 1200px) {
+  body .site-content.site-section.site-slide-content .row .site-heading-promo {
+    margin-top: 40px;
+  }
+}
+body .site-content.site-section.site-slide-content .row .index-text {
+  width: 100%;
+  margin-left: 0;
+}
+body .site-content.site-section.site-slide-content .row .index-img {
+  width: 100%;
+}
+body button {
+  padding: 5px 30px;
+  background: #fff;
+  border: 1px solid #ff7700;
+  border-radius: 20px;
+  color: #ff7700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+body button a {
+  color: #ff7700;
+  text-decoration: none;
+}
+body button:hover {
+  background: #ff7700;
+}
+body button:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body .container {
+  position: relative;
+}
+body .container .row.portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+body .container .row.portfolio div {
+  margin-bottom: 0;
+}
+body .container .row.portfolio h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+body .container .row.portfolio span {
+  text-align: center;
+}
+body .container .row.portfolio .q-container .q-code {
+  width: 200px;
+  height: 200px;
+  margin: auto 25px;
+  display: inline-block;
+}
+body .container .row.portfolio .q-container .iosdowload{
+  background:url(../../img/iOS-Android.png);
+  background-size:100% 100%;
+}
+
